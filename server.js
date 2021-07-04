@@ -31,11 +31,11 @@ app.use('/mail', mailRouter);
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome to Propert Santa testing API.",
-    developer: "Saad Aslam",
+    message: "Welcome to Cloud Photography.",
+    developer: "Talha Maiken",
     links: {
-      github_Link: "https://github.com/saadusufzai",
-      facebook: "https://www.facebook.com/saadusufzai",
+      github_Link: "https://github.com/talhamaiken",
+      facebook: "https://www.facebook.com/talhamaiken",
     },
   });
 });
